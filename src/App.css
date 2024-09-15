@@ -1,0 +1,13 @@
+.App {
+  font-family: cursive;
+  text-align: center;
+  width: 50%;
+  margin: 30px auto;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
