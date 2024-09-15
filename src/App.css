@@ -85,3 +85,12 @@ input {
   color: goldenrod;
   font-weight: bold;
 }
+
+@media (max-width: 550px) and (min-width: 300px) {
+  .app {
+    width: 80%;
+  }
+  input {
+    width: 100px;
+  }
+}
