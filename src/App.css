@@ -1,13 +1,87 @@
-.App {
-  font-family: cursive;
+* {
+  margin: 4px;
+  padding: 2px;
+}
+
+body {
+  background-color: #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: goldenrod;
   text-align: center;
-  width: 50%;
-  margin: 30px auto;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+
+.title h1 {
+  font-size: 2.3rem;
+}
+
+.title p {
+  font-size: 1rem;
+}
+
+.App {
+  background-color: rgba(128, 0, 32);
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.total-value {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.total-value p {
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: wheat;
+  letter-spacing: 0.5px;
+  padding: 5px;
 }
 
 button {
   cursor: pointer;
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid #000;
   outline: none;
+  color: blanchedalmond;
+  background-color: transparent;
+  margin-left: 10px;
+  font-size: 1rem;
+  font-family: inherit;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: translateX(3px);
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #000;
+}
+
+:disabled {
+  background-color: rgb(215, 212, 212);
+}
+
+.error-msg {
+  font-size: 1.1rem;
+  color: goldenrod;
+  font-weight: bold;
 }
